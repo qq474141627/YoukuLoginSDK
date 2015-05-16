@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+     <style name="wordpagesubtitle2" parent="FontC">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowColor">#000000</item>
+    </style>
+    
+</resources>

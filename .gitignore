@@ -1,0 +1,17 @@
+.settings
+.idea
+gen
+bin
+out
+target
+gen-external-apklibs
+/.classpath
+/.project
+/.idea
+taobao_develop.iml
+taobao_android_tao.iml
+taobao_android.iml
+classes
+project.properties
+*.iml
+build
