@@ -31,71 +31,71 @@ public class Logger {
 
 	public static void v(String tag, String msg) {
 		if (Youku.isShowLog)
-			Log.v(tag, msg == null ? "" : msg);
+			Log.v(tag, "----"+msg);
 	}
 
 	public static void v(String tag, String msg, Throwable tr) {
 		if (Youku.isShowLog)
-			Log.v(tag, msg == null ? "" : msg, tr);
+			Log.v(tag, "----"+msg, tr);
 	}
 
 	public static void v(String msg) {
 		if (Youku.isShowLog)
-			Log.v(TAG, msg == null ? "" : msg);
+			Log.v(TAG, "----"+msg);
 	}
 
 	public static void v(String msg, Throwable tr) {
 		if (Youku.isShowLog)
-			Log.v(TAG, msg == null ? "" : msg, tr);
+			Log.v(TAG, "----"+msg, tr);
 	}
 
 	public static void d(String tag, String msg) {
 		if (Youku.isShowLog)
-			Log.d(tag, msg == null ? "" : msg);
+			Log.d(tag, "----"+msg);
 	}
 	public static void lxf(String msg) {
 		if (Youku.isShowLog)
-			Log.i("LXF", msg == null ? "" : msg);
+			Log.i("LXF", "----"+msg);
 	}
 
 	public static void d(String tag, String msg, Throwable tr) {
 		if (Youku.isShowLog)
-			Log.d(tag, msg == null ? "" : msg, tr);
+			Log.d(tag, "----"+msg, tr);
 	}
 
 	public static void d(String msg) {
 		if (Youku.isShowLog)
-			Log.d(TAG, msg == null ? "" : msg);
+			Log.d(TAG, "----"+msg);
 	}
 
 	public static void d(String msg, Throwable tr) {
 		if (Youku.isShowLog)
-			Log.d(TAG, msg == null ? "" : msg, tr);
+			Log.d(TAG, "----"+msg, tr);
 	}
 
 	public static void e(String tag, String msg) {
 		if (Youku.isShowLog)
-			Log.e(tag, msg == null ? "" : msg);
+			Log.e(tag, "----"+msg);
 	}
 
 	public static void e(String tag, String msg, Throwable tr) {
 		if (Youku.isShowLog)
-			Log.e(tag, msg == null ? "" : msg, tr);
+			Log.e(tag, "----"+msg, tr);
 	}
 
 	public static void e(String msg) {
 		if (Youku.isShowLog)
-			Log.e(TAG, msg == null ? "" : msg);
+			Log.e(TAG, "----"+msg);
 	}
 
 	public static void e(String msg, Throwable tr) {
 		if (Youku.isShowLog)
-			Log.e(TAG, msg == null ? "" : msg, tr);
+			Log.e(TAG, "----"+msg, tr);
 	}
 	
 	public static void banana(String msg) {
 		if (Youku.isShowLog)
-			Log.d("banana", msg == null ? "" : msg);
+			Log.d("banana", "----"+msg);
 	}
 
 }
